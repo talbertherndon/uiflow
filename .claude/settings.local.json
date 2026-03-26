@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm i:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm setup:*)",
+      "Bash(source ~/.zshrc)",
+      "Bash(npm install:*)",
+      "Bash(export PNPM_HOME=\"/Users/talbertherndon/Library/pnpm\")",
+      "Bash(export PATH=\"$PNPM_HOME:$PATH\")",
+      "Bash(pnpm -v)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
