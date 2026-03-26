@@ -29,6 +29,14 @@
   }
 }
 
+/* Strip Mapbox popup chrome */
+.uiflow-popup .mapboxgl-popup-content {
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+.uiflow-popup .mapboxgl-popup-tip { display: none !important; }
+
 @keyframes blink {
   0%, 100% { opacity: 0.2; transform: scale(0.75); }
   50%       { opacity: 1;   transform: scale(1); }
